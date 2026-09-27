@@ -28,6 +28,31 @@ Power Query – Data transformation and preparation
 DAX – Measures and KPI calculations
 GitHub – Project documentation and portfolio hosting
 
+## 🔄 Data Preparation & Methodology
+
+The customer churn dataset was prepared and analyzed using Microsoft Power BI.
+
+## Data Preparation
+- Imported the Telco Customer Churn dataset into Power BI.
+- Reviewed the dataset for missing and inconsistent values.
+- Converted relevant fields to appropriate data types.
+- Prepared customer and service-related variables for analysis.
+- Created customer segments based on tenure and monthly charges.
+
+## Analysis Process
+1. Data Cleaning – Reviewed and prepared the raw customer data.
+2. Data Transformation – Organized variables and created analysis-ready fields using Power Query.
+3. DAX Measures – Created measures for key performance indicators including total customers, churned customers, average monthly charges, and churn rate.
+4. Data Visualization – Developed KPI cards, charts, and interactive visuals in Power BI.
+5. Interactive Analysis – Added slicers to explore churn across customer segments.
+6. Business Insights – Examined customer characteristics and service factors associated with churn.
+
+## Key Metrics
+- Total Customers: 7,043
+- Churned Customers: 1,869
+- Churn Rate: 26.54%
+- Average Monthly Charges: 64.76
+
 ## 📌 Key Performance Indicators
 
 The dashboard provides four major KPIs:
