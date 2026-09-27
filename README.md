@@ -85,9 +85,10 @@ The dashboard includes slicers for:
 
 These filters dynamically update the dashboard KPIs and visualizations, allowing users to explore specific customer segments.
 
+
 ## 📷 Dashboard Preview
 
-![Customer Churn Dashboard](customer-churn-dashboard.png)
+![Customer Churn Dashboard](dashboard/customer-churn-dashboard.png)
 
 
 ## 💼 Business Value
