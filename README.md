@@ -87,9 +87,7 @@ These filters dynamically update the dashboard KPIs and visualizations, allowing
 
 ## 📷 Dashboard Preview
 
-dashboard/customer-churn-dashboard.png
-
-https://universityoflagos-my.sharepoint.com/:u:/r/personal/210901066_live_unilag_edu_ng/Documents/customer%20churn%20analysis-my_dashboard.pbix?d=wc5419531b35f487f9791a7399d7f5da3&csf=1&web=1&e=e4iCtw
+![Customer Churn Dashboard](customer-churn-dashboard.png)
 
 
 ## 💼 Business Value
