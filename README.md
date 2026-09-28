@@ -77,22 +77,35 @@ The dashboard uses DAX measures to calculate key customer churn metrics dynamica
 ```DAX
 Total Customers =
 DISTINCTCOUNT(Customer_Churn[customerID])
+```
 
+### Average Monthly Charges
+
+```DAX
 Average Monthly Charges =
 AVERAGE(Customer_Churn[MonthlyCharges])
+```
 
+### Churned Customers
+
+```DAX
 Churned Customers =
 CALCULATE(
     DISTINCTCOUNT(Customer_Churn[customerID]),
     Customer_Churn[Churn] = "YES"
 )
+```
 
+### Churn Rate
+
+```DAX
 Churn Rate =
 DIVIDE(
     [Churned Customers],
     [Total Customers],
     0
 )
+```
 
 ## 📈 Dashboard Analysis
 
