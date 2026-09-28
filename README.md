@@ -21,11 +21,23 @@ The analysis focuses on:
 - Customer tenure
 - Monthly charge groups
 
+## ⭐ Project Highlights
+
+- Built an interactive customer churn dashboard using Power BI.
+- Analyzed churn across contract types, payment methods, internet services, tenure, and monthly charges.
+- Created DAX measures for customer count, churned customers, average monthly charges, and churn rate.
+- Developed customer segmentation groups for tenure and monthly charges.
+- Used interactive slicers to support customer-level and segment-level analysis.
+- Translated analytical findings into actionable customer retention recommendations.
+
 ## 🛠️ Tools Used
 
 Microsoft Power BI – Data visualization and dashboard development
+
 Power Query – Data transformation and preparation
+
 DAX – Measures and KPI calculations
+
 GitHub – Project documentation and portfolio hosting
 
 ## 🔄 Data Preparation & Methodology
