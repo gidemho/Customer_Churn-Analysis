@@ -89,16 +89,23 @@ Groups customers according to their monthly charges and compares churn patterns 
 6. Churn Rate by Payment Method
 Shows the percentage of customers who churn within each payment method category.
 
-## 🔎 Key Insights
+## 💡 Key Insights
 
-The dashboard highlights several notable patterns:
+The analysis identified several patterns associated with customer churn:
 
-- Month-to-month contracts account for a substantial share of customer churn.
-- Customers using electronic checks show a noticeably higher churn rate than the other payment methods.
-- Churn varies across internet service categories, with fiber optic customers showing a notable churn volume.
-- Customer churn patterns change across different tenure groups.
-- Monthly charge levels show differences in customer churn volume.
-- Interactive slicers allow users to investigate churn patterns by **Internet Service, Gender, and Contract Type**.
+- Contract type: Customers on month-to-month contracts represent a significant portion of churn, indicating that customers without long-term commitments are more likely to leave.
+
+- Payment method: Churn varies across payment methods, with electronic check customers showing a relatively high level of churn.
+
+- Internet service: Customers using fiber optic internet account for a substantial share of churn, making this an important customer segment to monitor.
+
+- Customer tenure: Churn is more concentrated among customers with shorter tenure, suggesting that the early customer lifecycle is an important period for retention efforts.
+
+- Monthly charges: Customers with higher monthly charges show greater exposure to churn, indicating that pricing and perceived value may be relevant to retention.
+
+- Overall churn: The dataset contains 1,869 churned customers out of 7,043 customers, representing a churn rate of approximately 26.5%.
+Why we're doing this
+
 
 ## 🎛️ Interactive Features
 
