@@ -38,6 +38,8 @@ The customer churn dataset was prepared and analyzed using Microsoft Power BI.
 - Converted relevant fields to appropriate data types.
 - Prepared customer and service-related variables for analysis.
 - Created customer segments based on tenure and monthly charges.
+- Created a monthly charge grouping in Power BI using DAX to classify customers into five charge ranges: Below $30, $30–$49, $50–$69, $70–$89, and $90+.
+
 
 ## Analysis Process
 1. Data Cleaning – Reviewed and prepared the raw customer data.
@@ -63,8 +65,33 @@ Total Customers - 7K
 Average Monthly Charges - 64.76
 Churned Customers - 2K
 Churn Rate - 26.5%
-
 *Note: KPI values represent the overall dataset view. Selecting slicers dynamically changes the results.*
+
+## 🧮 DAX Measures
+
+The dashboard uses DAX measures to calculate key customer churn metrics dynamically.
+
+## Total Customers
+
+```DAX
+Total Customers =
+DISTINCTCOUNT(Customer_Churn[customerID])
+
+Average Monthly Charges =
+AVERAGE(Customer_Churn[MonthlyCharges])
+
+Churned Customers =
+CALCULATE(
+    DISTINCTCOUNT(Customer_Churn[customerID]),
+    Customer_Churn[Churn] = "YES"
+)
+
+Churn Rate =
+DIVIDE(
+    [Churned Customers],
+    [Total Customers],
+    0
+)
 
 
 ## 📈 Dashboard Analysis
