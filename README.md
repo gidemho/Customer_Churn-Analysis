@@ -122,6 +122,21 @@ These filters dynamically update the dashboard KPIs and visualizations, allowing
 
 ![Customer Churn Dashboard](dashboard/customer-churn-dashboard.png)
 
+## 🎯 Business Recommendations
+
+Based on the churn patterns identified in the analysis, the following actions could support customer retention:
+
+- Strengthen early-stage retention: Develop onboarding and engagement initiatives for newer customers, where churn is more concentrated.
+
+- Encourage longer-term contracts: Offer incentives or additional value to customers who move from month-to-month contracts to longer-term plans.
+
+- Review high-churn payment segments: Investigate customer experience and payment friction among customers using payment methods associated with higher churn.
+
+- Monitor high-charge customers: Review pricing, service bundles, and perceived value for customers with higher monthly charges.
+
+- Improve retention for high-risk service segments: Use targeted offers and service-quality initiatives for customer groups with elevated churn.
+
+- Use customer segmentation: Apply the dashboard's interactive filters to identify high-risk customer groups and support targeted retention campaigns.
 
 ## 💼 Business Value
 
