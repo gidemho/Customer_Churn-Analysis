@@ -59,19 +59,20 @@ The customer churn dataset was prepared and analyzed using Microsoft Power BI.
 
 The dashboard provides four major KPIs:
 
-KPI - Value 
+| KPI | Value |
+|---|---:|
+| Total Customers | 7,043 |
+| Average Monthly Charges | 64.76 |
+| Churned Customers | 1,869 |
+| Churn Rate | 26.54% |
 
-Total Customers - 7K
-Average Monthly Charges - 64.76
-Churned Customers - 2K
-Churn Rate - 26.5%
-*Note: KPI values represent the overall dataset view. Selecting slicers dynamically changes the results.*
+> **Note:** KPI values represent the overall dataset view. Selecting dashboard slicers dynamically changes the results.
 
 ## 🧮 DAX Measures
 
 The dashboard uses DAX measures to calculate key customer churn metrics dynamically.
 
-## Total Customers
+### Total Customers
 
 ```DAX
 Total Customers =
@@ -92,7 +93,6 @@ DIVIDE(
     [Total Customers],
     0
 )
-
 
 ## 📈 Dashboard Analysis
 
